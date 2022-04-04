@@ -14,11 +14,10 @@ import { HashRouter, BrowserRouter as Router, Routes, Route, Link } from "react-
 
 function App() {
   return (
-    <Router>
       <div className="App">
         <Header />
         <main>
-          <HashRouter basename="lanborg.github.io/">
+          <HashRouter>
             <Route path="/" element={<Portfolio />}/>
             <Route path="/portfolio" element={<Portfolio />}/>
             <Route path="/fxtrade" element={<Fxtrade />}/>
@@ -32,7 +31,6 @@ function App() {
         <Waves />
         <Tree />
       </div>
-    </Router>
   );
 }
 
