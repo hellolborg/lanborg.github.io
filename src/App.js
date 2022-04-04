@@ -20,13 +20,13 @@ function App() {
         <main>
           <Routes>
             <Route exact path="/" element={<Portfolio />}/>
-            <Route exact path="/portfolio" element={<Portfolio />}/>
+            <Route exact path="/lanborg.github.io/portfolio" element={<Portfolio />}/>
             <Route exact path="/fxtrade" element={<Fxtrade />}/>
             <Route exact path="/oandalive" element={<Oandalive />}/>
             <Route exact path="/cbc" element={<Cbc />}/>
             <Route exact path="/fox" element={<Fox />}/>
             <Route exact path="/pantryyumyums" element={<Pantryyumyums />}/>
-            <Route exact path="/about" element={<About />} />
+            <Route exact path="/lanborg.github.io/about" element={<About />} />
           </Routes>
         </main>
         <Waves />
