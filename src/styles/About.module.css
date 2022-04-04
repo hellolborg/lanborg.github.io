@@ -1,0 +1,69 @@
+.about {
+    width: calc(100vw - 480 - 40);
+    height: 68vh;
+    margin: 0px 160px 0px 550px;
+    padding: 20px 0;
+}
+
+.aboutFlex {
+    display: flex;
+    flex-direction: row;
+}
+
+.lan {
+    width: 30%;
+    margin: 20px 40px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.lanPhoto {
+    margin-bottom: 20px;
+    border: 2px solid #fbf4e2;
+    object-fit: cover;
+    object-position: center;
+}
+
+.contactFlex {
+    display: flex;
+    flex-direction: row; 
+    margin: 20px 0 0 10px;
+}
+
+.contactFlex img {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+}
+
+.contactFlex a {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #d94535;
+    padding: 5px 0;
+}
+
+.contactFlex a:hover {
+    text-decoration: underline;
+}
+
+.aboutContent {
+    width: 70%;
+    margin: 10px 20px 0 0;
+    text-overflow: clip;
+}
+
+.about h3 {
+    font-size: 2.4rem;
+    font-weight: 300;
+    color: #444;
+    margin: 0 0 20px 0;
+}
+
+.about h4 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #444;
+    margin-top: 20px;
+}
+
