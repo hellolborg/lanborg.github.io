@@ -14,23 +14,25 @@ import { HashRouter, BrowserRouter as Router, Routes, Route, Link } from "react-
 
 function App() {
   return (
+    <Router>
       <div className="App">
         <Header />
         <main>
-          <Router>
+          <Routes>
             <Route exact path="/lanborg.github.io" element={<Portfolio />}/>
-            <Route path="/portfolio" element={<Portfolio />}/>
-            <Route path="/fxtrade" element={<Fxtrade />}/>
-            <Route path="/oandalive" element={<Oandalive />}/>
-            <Route path="/cbc" element={<Cbc />}/>
-            <Route path="/fox" element={<Fox />}/>
-            <Route path="/pantryyumyums" element={<Pantryyumyums />}/>
-            <Route path="/about" element={<About />} />
-          </Router>
+            <Route exact path="/lanborg.github.io/portfolio" element={<Portfolio />}/>
+            <Route exact path="/lanborg.github.io/fxtrade" element={<Fxtrade />}/>
+            <Route exact path="/lanborg.github.io/oandalive" element={<Oandalive />}/>
+            <Route exact path="/lanborg.github.io/cbc" element={<Cbc />}/>
+            <Route exact path="/lanborg.github.io/fox" element={<Fox />}/>
+            <Route exact path="/lanborg.github.io/pantryyumyums" element={<Pantryyumyums />}/>
+            <Route exact path="/lanborg.github.io/about" element={<About />} />
+          </Routes>
         </main>
         <Waves />
         <Tree />
       </div>
+    </Router>
   );
 }
 
