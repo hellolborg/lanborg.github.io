@@ -19,14 +19,14 @@ function App() {
         <Header />
         <main>
           <HashRouter>
-            <Route exact path={`${process.env.lanborg.github.io}`} element={<Portfolio />}/>
-            <Route exact path={`${process.env.lanborg.github.io}`} element={<Portfolio />}/>
-            <Route exact path={`${process.env.lanborg.github.io}/fxtrade`} element={<Fxtrade />}/>
-            <Route exact path={`${process.env.lanborg.github.io}/oandalive`} element={<Oandalive />}/>
-            <Route exact path={`${process.env.lanborg.github.io}/cbc`} element={<Cbc />}/>
-            <Route exact path={`${process.env.lanborg.github.io}/fox`} element={<Fox />}/>
-            <Route exact path={`${process.env.lanborg.github.io}/pantryyumyums`} element={<Pantryyumyums />}/>
-            <Route exact path={`${process.env.lanborg.github.io}/about`} element={<About />} />
+            <Route exact path="/lanborg.github.io" element={<Portfolio />}/>
+            <Route exact path="/lanborg.github.io/portfolio" element={<Portfolio />}/>
+            <Route exact path="/lanborg.github.io/fxtrade" element={<Fxtrade />}/>
+            <Route exact path="/lanborg.github.io/oandalive" element={<Oandalive />}/>
+            <Route exact path="/lanborg.github.io/cbc" element={<Cbc />}/>
+            <Route exact path="/lanborg.github.io/fox" element={<Fox />}/>
+            <Route exact path="/lanborg.github.io/pantryyumyums" element={<Pantryyumyums />}/>
+            <Route exact path="/lanborg.github.io/about" element={<About />} />
           </HashRouter>
         </main>
         <Waves />
