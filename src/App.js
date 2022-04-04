@@ -14,7 +14,7 @@ import { HashRouter, BrowserRouter as Router, Routes, Route, Link } from "react-
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <Header />
         <main>
@@ -32,7 +32,7 @@ function App() {
         <Waves />
         <Tree />
       </div>
-    </Router>
+    </HashRouter >
   );
 }
 
