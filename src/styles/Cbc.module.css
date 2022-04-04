@@ -1,0 +1,37 @@
+.cbc {
+    width: calc(100vw - 480 - 40);
+    margin: 0px 100px 0px 550px;
+    padding: 20px 0;
+}
+
+.cbc h1 {
+    padding-bottom: 10px;
+}
+
+.cbc h4 {
+    padding-bottom: 30px;
+}
+
+.cbcFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.cbcIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cbcPlayer {
+    width: 35vw;
+    padding-top: 20px;
+}
+
+
+.cbcImg {
+    width: 100%;
+    margin: 20px auto;
+}
