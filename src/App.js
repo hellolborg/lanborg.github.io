@@ -17,8 +17,8 @@ function App() {
       <div className="App">
         <Header />
         <main>
-          <HashRouter>
-            <Route path="/" element={<Portfolio />}/>
+          <Router>
+            <Route exact path="/lanborg.github.io" element={<Portfolio />}/>
             <Route path="/portfolio" element={<Portfolio />}/>
             <Route path="/fxtrade" element={<Fxtrade />}/>
             <Route path="/oandalive" element={<Oandalive />}/>
@@ -26,7 +26,7 @@ function App() {
             <Route path="/fox" element={<Fox />}/>
             <Route path="/pantryyumyums" element={<Pantryyumyums />}/>
             <Route path="/about" element={<About />} />
-          </HashRouter>
+          </Router>
         </main>
         <Waves />
         <Tree />
