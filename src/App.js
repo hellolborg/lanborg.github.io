@@ -9,12 +9,12 @@ import Header from "./components/Header";
 import Tree from "./components/Tree";
 import Waves from "./components/Waves";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Header />
         <main>
@@ -32,7 +32,7 @@ function App() {
         <Waves />
         <Tree />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
