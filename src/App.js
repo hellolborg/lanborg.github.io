@@ -18,7 +18,7 @@ function App() {
       <div className="App">
         <Header />
         <main>
-          <HashRouter basename="/">
+          <HashRouter basename="lanborg.github.io/">
             <Route path="/" element={<Portfolio />}/>
             <Route path="/portfolio" element={<Portfolio />}/>
             <Route path="/fxtrade" element={<Fxtrade />}/>
