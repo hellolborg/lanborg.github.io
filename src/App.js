@@ -9,7 +9,7 @@ import Header from "./components/Header";
 import Tree from "./components/Tree";
 import Waves from "./components/Waves";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 
 function App() {
@@ -18,16 +18,16 @@ function App() {
       <div className="App">
         <Header />
         <main>
-          <Routes>
-            <Route exact path="/lanborg.github.io" element={<Portfolio />}/>
-            <Route exact path="/lanborg.github.io/portfolio" element={<Portfolio />}/>
-            <Route exact path="/lanborg.github.io/fxtrade" element={<Fxtrade />}/>
-            <Route exact path="/lanborg.github.io/oandalive" element={<Oandalive />}/>
-            <Route exact path="/lanborg.github.io/cbc" element={<Cbc />}/>
-            <Route exact path="/lanborg.github.io/fox" element={<Fox />}/>
-            <Route exact path="/lanborg.github.io/pantryyumyums" element={<Pantryyumyums />}/>
-            <Route exact path="/lanborg.github.io/about" element={<About />} />
-          </Routes>
+          <HashRouter>
+            <Route exact path={`${process.env.lanborg.github.io}`} element={<Portfolio />}/>
+            <Route exact path={`${process.env.lanborg.github.io}`} element={<Portfolio />}/>
+            <Route exact path={`${process.env.lanborg.github.io}/fxtrade`} element={<Fxtrade />}/>
+            <Route exact path={`${process.env.lanborg.github.io}/oandalive`} element={<Oandalive />}/>
+            <Route exact path={`${process.env.lanborg.github.io}/cbc`} element={<Cbc />}/>
+            <Route exact path={`${process.env.lanborg.github.io}/fox`} element={<Fox />}/>
+            <Route exact path={`${process.env.lanborg.github.io}/pantryyumyums`} element={<Pantryyumyums />}/>
+            <Route exact path={`${process.env.lanborg.github.io}/about`} element={<About />} />
+          </HashRouter>
         </main>
         <Waves />
         <Tree />
