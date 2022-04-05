@@ -21,8 +21,7 @@ header {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
-    margin-top: 25px;
-    
+    margin-top: 25px; 
 }
 
 .nameFlex h1 {
@@ -85,4 +84,97 @@ hr.dotted2 {
     height: 2px;
     border: none;
     border-top: 2px dotted #BBB;
+}
+
+@media (max-width: 1080px) {
+    
+    header {
+        height: 100px;
+    }
+
+    .flexHeader {
+        width: 100% - 240px;
+        margin-left: 240px;
+    }
+
+    .nameFlex {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0px;
+    }
+
+    .nameFlex h1 {
+        font-size: 3.6rem;
+        margin: 0px; 
+        padding: 0px;
+    }
+
+    .nameFlex h5 {
+        font-size: 1.4rem;
+        margin: 0px;
+    }
+
+    nav ul {
+        height: 30px;
+        margin-right: 40px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 810px) {
+
+    header {
+        height: 100px;
+    }
+
+    .flexHeader {
+        width: 100% - 300px;
+        margin-left: 200px;
+    }
+
+    .nameFlex {
+        justify-content: flex-start;
+        margin-top: 22px;
+    }
+
+    .nameFlex h5 {
+        margin-top: -15px;
+    }
+    
+    nav ul {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 420px) { 
+
+    header {
+        height: 110px;
+    }
+
+    .flexHeader {
+        width: 100%;
+        margin-left: 20px;
+        flex-direction: column;
+    }
+
+    .nameFlex h5 {
+        margin-top: -15px;
+    }
+
+    nav {
+        justify-content: flex-start;
+    }
+
+    nav {
+        height: 20px;
+        margin-top: 20px;
+    }
+    
+    nav ul li {
+        font-size: 1.4rem;
+        margin-left: 0px;
+        margin-right: 16px;
+    }
 }

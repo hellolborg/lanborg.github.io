@@ -99,3 +99,47 @@
     object-fit: contain;
     object-position: center;
 }
+
+@media (max-width: 1080px) {
+
+    .fxtrade {
+        width: calc(100vw - 200);
+        margin: 0px 40px 0px 240px;
+    }
+}
+
+@media (max-width: 810px) {
+
+    .fxtrade {
+        margin: 0px 40px 0px 200px;
+    }
+}
+
+@media (max-width: 420px) { 
+    .fxtrade {
+        width: 100vw;
+        height: 100%;
+        margin: 50px 20px 0 20px;
+    }
+
+    .fxTradeMain {
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .fxTradeSecond {
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .uxNotes img {
+        width: calc(100vw / 2 - 20);
+        margin: 0 20px;
+    }
+
+    .portfolioRow {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}

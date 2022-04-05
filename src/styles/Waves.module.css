@@ -4,9 +4,6 @@
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    /* position: absolute;
-    top: 70vh;
-    left: 0; */
     background-color: #fbf4e2;
 }
 
@@ -31,4 +28,19 @@ hr.solid1 {
 
 .wavesImg:hover {
     transform: scale(1.8, 1.8) translateY(-8px);
+}
+
+@media (max-width: 1080px) {
+
+    .wavesImg {
+        width: 80px;
+    }
+}
+
+@media (max-width: 420px) { 
+
+    .waves {
+        display: none;
+    }
+
 }
