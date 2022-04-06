@@ -39,7 +39,7 @@
     transform: scale(1.1);
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1250px) {
 
     .portfolioFlex {
         width: calc(100vw - 200);
@@ -54,7 +54,7 @@
     }
 }
 
-@media (max-width: 420px) { 
+@media (max-width: 500px) { 
 
     .portfolioFlex {
         width: 100vw;

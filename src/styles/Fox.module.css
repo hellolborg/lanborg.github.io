@@ -35,3 +35,35 @@
     width: 100%;
     margin: 20px auto;
 }
+
+@media (max-width: 1250px) {
+
+    .fox {
+        width: calc(100vw - 200);
+        margin: 0px 40px 0px 240px;
+    }
+}
+
+@media (max-width: 810px) {
+
+    .fox {
+        margin: 0px 40px 0px 200px;
+    }
+}
+
+@media (max-width: 520px) { 
+
+    .fox {
+        height: 100%;
+        margin: 0px 20px;
+    }
+
+    .foxFlex {
+        flex-direction: column;
+    }
+
+    .sytycd {
+        width: 320px;
+        margin: 0px auto;
+    }
+}

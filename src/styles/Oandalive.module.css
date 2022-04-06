@@ -20,3 +20,30 @@
     width: 50%;
     margin: 20px auto;
 }
+
+@media (max-width: 1250px) {
+
+    .oandalive {
+        width: calc(100vw - 200);
+        margin: 0px 40px 0px 240px;
+    }
+}
+
+@media (max-width: 810px) {
+
+    .oandalive {
+        margin: 0px 40px 0px 200px;
+    }
+}
+
+@media (max-width: 520px) { 
+
+    .oandalive {
+        height: 100%;
+        margin: 0px 20px;
+    }
+
+    .oandametricsImg {
+        width: 280px;
+    }
+}

@@ -7,6 +7,7 @@
     background-color: #d94535;
     border-radius: 50%;
     display: inline-block;
+    transition: scale 2s;
 }
 
 .tree {
@@ -14,6 +15,7 @@
     position: absolute;
     top: max(100vh - 92vh, 100px);
     left: max(5vw, 100px);
+    transition: scale 2s;
 }
 
 hr.solidBase {
@@ -123,18 +125,18 @@ hr.solid5 {
 /* media query styles */
 /**********************/
 
-@media (max-width: 1080px) {
+@media (max-width: 1250px) {
     .redCircle {
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
         top: 10px;
-        left: max(2vw, 20px);
+        left: -20px;
     }
 
     .tree {
-        width: 250px;
+        width: 320px;
         top: 50px;
-        left: -10px;
+        left: -75px;
     }
 
     hr.solidBase {
@@ -169,7 +171,7 @@ hr.solid5 {
     .cloud1 {
         width: 150px;
         top: 100px;
-        left: 110px;
+        left: 82px;
     }
 
     .cloud2 {
@@ -248,7 +250,7 @@ hr.solid5 {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 520px) {
     .redCircle {
         display: none;
     }

@@ -5,6 +5,7 @@
     justify-content: center;
     flex-wrap: wrap;
     background-color: #fbf4e2;
+    padding-top: 10px;
 }
 
 hr.solid1 {
@@ -30,7 +31,7 @@ hr.solid1 {
     transform: scale(1.8, 1.8) translateY(-8px);
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1250px) {
 
     .wavesImg {
         width: 80px;

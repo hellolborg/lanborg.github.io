@@ -40,3 +40,41 @@
 .pantryYY a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 1250px) {
+
+    .pantryYY {
+        width: calc(100vw - 200);
+        margin: 0px 40px 0px 240px;
+    }
+
+    .pantryYYFlex {
+        flex-direction: column;
+    }
+
+    .pantryYYImg {
+        width: 600px;
+        margin: 10 auto;
+    }
+}
+
+@media (max-width: 810px) {
+
+    .pantryYY {
+        margin: 0px 40px 0px 200px;
+    }
+
+}
+
+@media (max-width: 520px) { 
+
+    .pantryYY {
+        height: 100%;
+        margin: 0px 20px;
+    }
+
+    .pantryYYImg {
+        width: 320px;
+        margin: 10px auto;
+    }
+}

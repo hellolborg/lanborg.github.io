@@ -92,14 +92,14 @@ main {
   scrollbar-color: #888 transparent;    /* scroll thumb and track */ 
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1250px) {
 
     main {
       height: 75vh;
     }
 }
 
-@media (max-width: 420px) { 
+@media (max-width: 500px) { 
 
     main {
       height: 100vh;

@@ -29,7 +29,6 @@
 }
 
 .portfolioRow {
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -43,7 +42,6 @@
 }
 
 .portfolioColumn {
-    width: 100%;
     padding-right: 20px;
     object-fit: contain;
     object-position: center;
@@ -100,11 +98,42 @@
     object-position: center;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1250px) {
 
     .fxtrade {
         width: calc(100vw - 200);
         margin: 0px 40px 0px 240px;
+    }
+
+    .fxTradeMain {
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .portfolioRow {
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px 20px;
+    }
+
+    .uxNotes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .uxNotes img {
+        width: calc(100vw / 2 - 20);
+        margin: 10px auto;
+    }
+
+    .uxResearch {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .uxResearch img {
+        width: calc(100vw / 2 - 20);
+        margin: 10px auto;
     }
 }
 
@@ -115,31 +144,32 @@
     }
 }
 
-@media (max-width: 420px) { 
+@media (max-width: 520px) { 
     .fxtrade {
         width: 100vw;
         height: 100%;
-        margin: 50px 20px 0 20px;
-    }
-
-    .fxTradeMain {
-        width: 100%;
-        margin: 0 20px;
+        margin: 0px;
     }
 
     .fxTradeSecond {
-        width: 100%;
+        width: 250px;
         margin: 0 20px;
     }
 
-    .uxNotes img {
-        width: calc(100vw / 2 - 20);
-        margin: 0 20px;
+    .portfolioRow div {
+        margin: 0px;
     }
 
-    .portfolioRow {
-        width: 100%;
+    .portfolioColumn {
+        margin: 0px 20px;
+    }
+
+    .portfolioGallery {
         flex-direction: column;
-        margin-top: 20px;
+        align-items: center;
+    }
+
+    .fxTradePhone {
+        width: 250px;
     }
 }
