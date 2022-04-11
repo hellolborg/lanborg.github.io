@@ -30,10 +30,16 @@
     margin: 30px 0 0 30px;
 }
 
-
 .sytycdImg {
     width: 100%;
     margin: 20px auto;
+}
+
+.controls {
+    color: #999;
+    margin: 0 10px 20px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media (max-width: 1250px) {

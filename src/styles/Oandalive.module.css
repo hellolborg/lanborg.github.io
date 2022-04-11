@@ -12,13 +12,37 @@
     padding: 40px 0 20px 0;
 }
 
+.oandalive ul li {
+    line-height: 28px;
+    padding-left: 20px;
+}
+
+.oandaIntro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.mixpanelExample {
+    width: 400px;
+    margin: 0 30px;
+}
+
 .oandametricsgif {
     width: 100%;
 }
 
 .oandametricsImg {
-    width: 50%;
+    width: 75%;
     margin: 20px auto;
+}
+
+.controls {
+    color: #999;
+    margin: 0 10px 20px 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media (max-width: 1250px) {
@@ -27,12 +51,25 @@
         width: calc(100vw - 200);
         margin: 0px 40px 0px 240px;
     }
+
+    .oandaIntro {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 810px) {
 
     .oandalive {
         margin: 0px 40px 0px 200px;
+    }
+
+    .oandaIntro {
+        flex-direction: column;
+    }
+
+    .mixpanelExample {
+        width: 80%;
+        margin: 20px 0;
     }
 }
 
@@ -41,6 +78,15 @@
     .oandalive {
         height: 100%;
         margin: 0px 20px;
+    }
+
+    .oandaIntro {
+        flex-direction: column;
+    }
+
+    .mixpanelExample {
+        width: 90%;
+        margin: 20px 0;
     }
 
     .oandametricsImg {

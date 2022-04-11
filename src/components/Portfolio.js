@@ -15,29 +15,49 @@ function Portfolio() {
                     <a href="./fxtrade">
                         <img src={portfolio1} alt="fxTrade" class={styles.portfolioGallery} />
                     </a>
+                    <div className={styles.portfolioName}>
+                        <h4>fxTrade</h4>
+                    </div>
                 </li>
                 <li className={styles.portfolioImg}>
                     <a href="./oandalive">
                         <img src={portfolio2} alt="OANDA Live" class={styles.portfolioGallery} />
                     </a>
+                    <div className={styles.portfolioName}>
+                        <h4>OANDA Live</h4>
+                    </div>
                 </li>
                 <li className={styles.portfolioImg}>
-                    <img src={portfolio3} alt="Autodesk Alias" class={styles.portfolioGallery} />
+                    <a href="./alias">
+                        <img src={portfolio3} alt="Autodesk Alias" class={styles.portfolioGallery} />
+                    </a>
+                    <div className={styles.portfolioName}>
+                        <h4>Autodesk Alias</h4>
+                    </div>
                 </li>
                 <li className={styles.portfolioImg}>
                     <a href="./cbc">
                         <img src={portfolio4} alt="CBC" class={styles.portfolioGallery} />
                     </a>
+                    <div className={styles.portfolioName}>
+                        <h4>CBC Player</h4>
+                    </div>
                 </li>
                 <li className={styles.portfolioImg}>
                     <a href="./fox">
                         <img src={portfolio5} alt="Fox So You Think You Can Dance" class={styles.portfolioGallery} />
                     </a>
+                    <div className={styles.portfolioName}>
+                        <h4>So You Think You Can Dance</h4>
+                    </div>
                 </li>
                 <li className={styles.portfolioImg}>
                     <a href="./pantryyumyums">
                         <img src={portfolio6} alt="Pantry Yum Yums" class={styles.portfolioGallery} />
                     </a>
+                    <div className={styles.portfolioName}>
+                        <h4>Pantry Yum Yums</h4>
+                    </div>
                 </li>
             </ul>
         </section >

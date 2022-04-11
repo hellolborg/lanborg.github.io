@@ -27,6 +27,16 @@
     margin: 10px 0;
     overflow: hidden;
     border: 1px solid white;
+    border-radius: 8px;
+    position: relative;
+}
+
+.portfolioName {
+    display: none;
+}
+
+.portfolioName h4 {
+    padding: 20px;
 }
 
 .portfolioImg img {
@@ -37,6 +47,16 @@
 .portfolioFlex img:hover {
     filter: grayscale(0);
     transform: scale(1.1);
+}
+
+.portfolioImg:hover > .portfolioName {
+    display: block;
+    width: 100%;
+    color: #FFF;
+    background-color: rgba(19, 19, 19, 0.5);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
 }
 
 @media (max-width: 1250px) {

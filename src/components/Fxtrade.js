@@ -14,6 +14,10 @@ import fxtradeweb from "../assets/fxtrade_web.gif";
 function Fxtrade() {
     return (
         <div className={styles.fxtrade}>
+            <div className={styles.controls}>
+                <a href="./pantryyumyums">&#60; Previous</a>
+                <a href="./oandalive">Next &#62;</a>
+            </div>
             <section className={styles.portfolioRow}>
                 <div>
                     <h1>UX Manager, OANDA</h1>
@@ -27,7 +31,14 @@ function Fxtrade() {
             <section className={styles.portfolioRow}>
                 <img src={fxtradechart} className={styles.fxTradeSecond} alt="" />
                 <div>
-                    <p>At OANDA, I also had the opportunity of building a design team from the ground up. I hired, managed and mentored designers and it was a pleasure seeing them grow as individuals who were strong leaders in the design field.</p>
+                    <h3>Building A Team</h3>
+                    <p>At OANDA, I built a design team from the ground up. What I looked for and my role as a manager included:</p>
+                    <ul>
+                        <li>• Finding people who were eagern to learn, grow and adapt.</li>
+                        <li>• Helping grow their skills by organizing design sprints, brainstorm sessions, team events.</li>
+                        <li>• Weekly 1-1s</li>
+                        <li>• Performance reviews twice a year.</li>
+                    </ul>
                     <p>The UX team was solid and we made it a point to build strong relationships within the company. We communicated frequently with engineers, product managers, traders, and customer service. By doing so, it ensured all key stakeholders in any project were on the same page.</p>
                     <p>As a team, we created wireframes and prototypes to convey all our ideas. We stayed up to date within the field by exploring and using new tools. And we set out guidelines and design notes when working closely with the development team.</p>
                     <div className={styles.uxNotes}>

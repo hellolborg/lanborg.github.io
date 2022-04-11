@@ -1,0 +1,47 @@
+.method {
+    width: calc(100vw - 480 - 40);
+    margin: 0px 100px 0px 550px;
+    padding: 20px 0;
+}
+
+.method h1 {
+    padding-bottom: 10px;
+}
+
+.method h3 {
+    padding: 40px 0 20px 0;
+}
+
+.method ul li {
+    line-height: 24px;
+    padding-left: 20px;
+}
+
+.methodImg {
+    width: 80%;
+    margin: 20px auto;
+}
+
+@media (max-width: 1250px) {
+
+    .method {
+        width: calc(100vw - 200);
+        margin: 0px 40px 0px 240px;
+    }
+
+    .methodImg {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 810px) {
+
+}
+
+@media (max-width: 520px) { 
+
+    .methodImg {
+        width: 280px;
+    }
+}

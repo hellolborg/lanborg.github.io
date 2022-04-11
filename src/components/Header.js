@@ -15,6 +15,7 @@ function Header() {
                 <nav>
                     <ul>
                         <li><a href="./portfolio">PORTFOLIO</a></li>
+                        <li><a href="./method">METHOD</a></li>
                         <li><a href="./about">ABOUT</a></li>
                     </ul>
                 </nav>

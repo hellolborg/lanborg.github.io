@@ -67,6 +67,20 @@
     margin-top: 20px;
 }
 
+.about h5 {
+    font-size: 1.6rem;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.about ul {
+    padding-bottom: 10px;
+}
+
+.about ul li {
+    line-height: 24px;
+    padding-left: 20px;
+}
 
 @media (max-width: 1250px) {
 

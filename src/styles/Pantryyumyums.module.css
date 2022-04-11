@@ -30,15 +30,22 @@
     margin: 20px auto;
 }
 
-.pantryYY a {
+.pantryYY .pantryLink {
     font-size: 1.4rem;
     font-weight: 400;
     color: #d94535;
     padding: 5px 0;
 }
 
-.pantryYY a:hover {
+.pantryYY .pantryLink:hover {
     text-decoration: underline;
+}
+
+.controls {
+    color: #999;
+    margin: 0 10px 20px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media (max-width: 1250px) {
