@@ -11,12 +11,12 @@ function Method() {
             </p>
             <img src={designprocess} className={styles.methodImg} alt="OANDA metrics" />
             <p>
-                This idea of an infinity design process also branched off into how I work across teams. It's very important to me to have alignment and ensure design, engineer and product management are all connected and involved in the process. This ensures we're all working together towards the same goal and vision. 
+                This idea of an infinity design process also branched off into how I work across teams. It's very important to me to have alignment and ensure design, engineering, and product management are all connected and involved in the process. This ensures we're all working together towards the same goal and vision. 
             </p>
 
             <h2>Design Sprints</h2>
             <p>
-                One of the key things I enjoy when being a part of a team is doing Design Sprints together. The design sprints are like an accelerated design process done in a week. As a manager, we held Design Sprints every week that anybody in the company can join. The process and days are detailed below with the 3 steps being:
+                One of the key things I enjoy when being a part of a team is doing Design Sprints together. The design sprints are like an accelerated design process done in a week. As a manager, we held Design Sprints every week that anybody in the company can join. The process and days are detailed below with the 3 requirements being:
             </p>
             <ul>
                 <li>1. Everyone posted ideas and features that they wanted to implemented</li>

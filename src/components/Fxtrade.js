@@ -34,7 +34,7 @@ function Fxtrade() {
                     <h3>Building A Team</h3>
                     <p>At OANDA, I built a design team from the ground up. What I looked for and my role as a manager included:</p>
                     <ul>
-                        <li>• Finding people who were eagern to learn, grow and adapt.</li>
+                        <li>• Finding people who were eager to learn, grow and adapt.</li>
                         <li>• Helping grow their skills by organizing design sprints, brainstorm sessions, team events.</li>
                         <li>• Weekly 1-1s</li>
                         <li>• Performance reviews twice a year.</li>

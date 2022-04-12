@@ -15,7 +15,7 @@ function Alias() {
                     <h1>Sr UX Designer/Engineer, Autodesk</h1>
                     <h4>Alias Modernization Project</h4>
                     <p>
-                        Alias is an exclusive 3D Software program that is used to model surfaces of automobiles, devices, and any product. The software is almost 40 yrs old with over 400 tools and millions of lines of code, and the product itself shows its age. I currently have the pleasure of being apart of the modernization team that's taking on the challenge to bring this up to date.
+                        Alias is an exclusive 3D Software program that is used to model surfaces of automobiles, devices, and any product. The software is almost 40 years old with over 400 tools and millions of lines of code, and the product itself shows its age. I currently have the pleasure of being apart of the modernization team that's taking on the challenge to bring this up to date.
                     </p>
                     <p>
                         Due to the project not being available to the public yet, I'm unable to share the designs. Instead I can describe the workflow I've implemented that has dramatically improved our workflow.

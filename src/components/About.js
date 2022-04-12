@@ -28,7 +28,7 @@ function About() {
                     <h3 className={styles.h3}>Hi, I'm Lan. Thanks for dropping by!</h3>
                     <p>I have over 10+ years of experience as a designer and between 4-5 yrs experience leading a team as a UX Manager. My area of expertise include designing experiences for desktop software, mobile and web applications.</p>
                     
-                    <p>I’m currently a Senior UX Designer and Engineer at Autodesk, working on a product named Alias. It's a premium 3d software program used in the industry for designing automotive and hardware devices. Chances are you have used a device or driven a car that has been designed in the Alias software. This is, in my opinion, very cool!</p>
+                    <p>I’m currently a Senior UX Designer and Engineer at Autodesk, working on a product named Alias. It's a premium 3D software program used in the industry for designing automotive and hardware devices. Chances are you have used a device or driven a car that has been designed in the Alias software. This is, in my opinion, very cool!</p>
 
                     <p>My skills set includes:</p>
                     <h5>Design</h5>
@@ -43,7 +43,7 @@ function About() {
                         <ul>
                             <li>• HTML</li>
                             <li>• CSS</li>
-                            <li>• avascript</li>
+                            <li>• Javascript</li>
                             <li>• React</li>
                             <li>• QT/QML</li>
                             <li>• Git</li>
