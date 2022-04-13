@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lanborg.github.io/static/css/main.5a04a672.css",
-    "main.js": "/lanborg.github.io/static/js/main.4c447d98.js",
+    "main.js": "/lanborg.github.io/static/js/main.d99c70d9.js",
     "static/js/787.52358b75.chunk.js": "/lanborg.github.io/static/js/787.52358b75.chunk.js",
     "static/media/sytycd.gif": "/lanborg.github.io/static/media/sytycd.f4f87a2a96c83d1ae326.gif",
     "static/media/cbc.gif": "/lanborg.github.io/static/media/cbc.eabec16ab02d7453970b.gif",
@@ -47,11 +47,11 @@
     "index.html": "/lanborg.github.io/index.html",
     "static/media/wave.svg": "/lanborg.github.io/static/media/wave.7d9dec2f6fcbc99c905f4225125850ca.svg",
     "main.5a04a672.css.map": "/lanborg.github.io/static/css/main.5a04a672.css.map",
-    "main.4c447d98.js.map": "/lanborg.github.io/static/js/main.4c447d98.js.map",
+    "main.d99c70d9.js.map": "/lanborg.github.io/static/js/main.d99c70d9.js.map",
     "787.52358b75.chunk.js.map": "/lanborg.github.io/static/js/787.52358b75.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a04a672.css",
-    "static/js/main.4c447d98.js"
+    "static/js/main.d99c70d9.js"
   ]
 }

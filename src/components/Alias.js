@@ -30,7 +30,7 @@ function Alias() {
             <ul>
                 <li>• Provide the team with QT/QML training</li>
                 <li>• Set up micro colloboration working sessions where we meet 20mins twice weekly to learn, debug, and ask questions.</li>
-                <li>• We worked with engineers to development a styling framework in QML that will work for designers working in the source code</li>
+                <li>• Working with engineers to develop a styling framework in QML that will work for designers working in the source code</li>
             </ul>
             <img src={communication} className={styles.aliasImg} alt="Communication Error Image" />
             <h2>Results</h2>
