@@ -9,19 +9,25 @@
 }
 
 .oandalive h3 {
-    padding: 40px 0 20px 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 20px 0 20px 0;
+}
+
+.oandalive ul {
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 .oandalive ul li {
     line-height: 28px;
-    padding-left: 20px;
 }
 
 .oandaIntro {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 .mixpanel2 {

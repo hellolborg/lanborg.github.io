@@ -74,6 +74,10 @@
     padding-right: 20px;
 }
 
+.uxThought {
+    width: 90%;
+}
+
 .uxResearch {
     display: flex;
     flex-direction: row;
@@ -85,6 +89,7 @@
     padding-right: 20px;
     margin-bottom: 20px;
 }
+
 
 .portfolioGallery {
     display: flex;

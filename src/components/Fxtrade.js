@@ -3,6 +3,7 @@ import fxtrademain from "../assets/fxtrade_main.gif";
 import fxtradechart from "../assets/fxtrade_chart.gif";
 import uxfxtradewires from "../assets/uxfxtradewires.png";
 import uxfxtradenotes from "../assets/uxfxtradenotes.png";
+import thoughtchart from "../assets/thought_chart.png"
 import uxfxtradecolortest from "../assets/uxfxtradecolortest.png";
 import uxfxtradeproducttest from "../assets/uxfxtradeproducttest.png";
 import fxtradechart2 from "../assets/fxtrade_chart2.gif";
@@ -63,6 +64,9 @@ function Fxtrade() {
                         <h3>2. Brainstorm & Ideation</h3>
                         <p>Before writing/drawing anything, I start off with research and learn about the customers, competitors, and also exploring other apps outside the finance field. From the research I gathered, our traders are mostly men, and they are typically more tech savy then the average mobile user. They are more willing to adopt new technology and they like simplicity and speed. The top customers have elaborate desktop setups with many nice monitors and prefer dark themes when customizing their platforms.</p>
                         <p>Using all this knowledge, I like to start off with a thought chart. I write down the problem statement on top, with the user and task in the middle, and from there I just branch out and write down as many ideas possible. For this particular project, it was done independantly but there's many times it's done as a group or while mentoring.</p>
+                        <div className={styles.uxThough}>
+                            <img src={thoughtchart} alt="" class={styles.uxThought}/>
+                        </div>
 
                         <h3>3. Design & Prototype</h3>
                         <p>From there, I pull out my sketch book or white board and start sketching. I start off sketching the obvious ideas to just get it out there, but eventually it involves into ideas that I haven't thought of. I like to have the problem statement and research visible, to ensure everyone keeps that in mind when sketching.</p>
@@ -112,7 +116,7 @@ function Fxtrade() {
                         <p>As a design team, we built strong relationships with developers by: </p>
                         <ul>
                             <li>• Involving them in the ideation sketching process</li>
-                            <li>• Running design ideas</li>
+                            <li>• Sharing our design ideas</li>
                             <li>• Completing sprints and reaching goals together</li>
                             <li>• Running 1 week fast design sprints with developers</li>
                         </ul>
