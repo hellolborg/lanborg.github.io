@@ -3,9 +3,15 @@ import fxtrademain from "../assets/fxtrade_main.gif";
 import fxtradechart from "../assets/fxtrade_chart.gif";
 import uxfxtradewires from "../assets/uxfxtradewires.png";
 import uxfxtradenotes from "../assets/uxfxtradenotes.png";
+import fxtradestory1 from "../assets/fxtrade_storyboard1.jpg"
+import fxtradestory2 from "../assets/fxtrade_storyboard2.jpg"
+import fxtradestory3 from "../assets/fxtrade_storyboard3.jpg"
 import thoughtchart from "../assets/thought_chart.png"
+import fxtradecolors from "../assets/fxtrade_colors.png"
+import fxtradesketches from "../assets/fxtrade_sketches2.png"
 import uxfxtradecolortest from "../assets/uxfxtradecolortest.png";
 import uxfxtradeproducttest from "../assets/uxfxtradeproducttest.png";
+import designprocess from "../assets/designprocess.png";
 import fxtradechart2 from "../assets/fxtrade_chart2.gif";
 import fxtradecalendar from "../assets/fxtrade_calendar.gif";
 import fxtradeaddremove from "../assets/fxtrade_addremove.gif";
@@ -59,25 +65,32 @@ function Fxtrade() {
 
                         <h3>1. Understanding the Problem</h3>
                         <p>My first step in any new project or feature is to first understand the problem. There were a lot of areas that we redesigned and considered in the fxTrade app, such as drawing on charts, scrolling calendars, executing trades fast, etc, and for each problem I start with building an understanding. For the design process example, I'll focus on how myself and the team came to the solution for our visual design.</p>
-                        <p className={styles.emphasize}>The problem: Traders need to access and scan all their important information quickly but there's a lot of cognitive overload due to the contrast, colours, and order of information displayed on the application.</p>
+                        <p className={styles.statement}>The problem: Traders need to access and scan all their important information quickly but there's a lot of cognitive overload due to the contrast, colours, and order of information displayed on the application.</p>
 
                         <h3>2. Brainstorm & Ideation</h3>
-                        <p>Before writing/drawing anything, I start off with research and learn about the customers, competitors, and also exploring other apps outside the finance field. From the research I gathered, our traders are mostly men, and they are typically more tech savy then the average mobile user. They are more willing to adopt new technology and they like simplicity and speed. The top customers have elaborate desktop setups with many nice monitors and prefer dark themes when customizing their platforms.</p>
-                        <p>Using all this knowledge, I like to start off with a thought chart. I write down the problem statement on top, with the user and task in the middle, and from there I just branch out and write down as many ideas possible. For this particular project, it was done independantly but there's many times it's done as a group or while mentoring.</p>
-                        <div className={styles.uxThough}>
-                            <img src={thoughtchart} alt="" class={styles.uxThought}/>
+                        <p>Before writing/drawing anything, I start off with research and learn about the customers, competitors, and also exploring other apps outside the finance field.</p>
+                        <p className={styles.emphasize}>Understanding our customer:</p>
+                        <p>From the research I gathered, our traders are mostly men, and they are typically more tech savy then the average mobile user. They are more willing to adopt new technology and they like simplicity and speed. The top customers have elaborate desktop setups with many nice monitors and prefer dark themes when customizing their platforms. They tend to use the mobile app as a secondary companion for trading, and on the go to keep an eye on their portfolio while on the go.</p>
+                        <div className={styles.storyGallery}>
+                            <img src={fxtradestory1} className={styles.fxTradeStory} alt="fxTrade Customers" />
+                            <img src={fxtradestory2} className={styles.fxTradeStory} alt="fxTrade Setup" />
+                            <img src={fxtradestory3} className={styles.fxTradeStory} alt="fxTrade To Go" />
                         </div>
+                        <p>Using all this knowledge, I like to start off with a thought chart. I write down the problem statement on top, with the user and task in the middle, and from there I just branch out and write down as many ideas possible. For this particular project, it was done independantly but there's many times it's done as a group or while mentoring.</p>
+                        <img src={thoughtchart} alt="Thought Chart" class={styles.uxThought}/>
 
                         <h3>3. Design & Prototype</h3>
                         <p>From there, I pull out my sketch book or white board and start sketching. I start off sketching the obvious ideas to just get it out there, but eventually it involves into ideas that I haven't thought of. I like to have the problem statement and research visible, to ensure everyone keeps that in mind when sketching.</p>
                         <p>For fxTrade, or any app I design, I have a purpose behind the visual choices I made:</p>
                         <h4 className={styles.emphasize}>Colors: </h4>
                         <ul>
+                            <li><img src={fxtradecolors} alt="fxTrade Colors" class={styles.uxDesign}/></li>
                             <li>• Most of our users have set up a dark theme for their applications</li>
                             <li>• The reason for this is because it allows focus to be directed to the numbers and charts which is key for trading. One second missed in trading could mean a lot of money gained or loss.</li>
                             <li>• Blue was chosen as the primary action color because most of our users are men and men have a higher chance of being color blind</li>
                             <li>• The previous action color of green, distracted took too much attention from the green being used to convey a price going up in value</li>
                             <li>• Based on ui research, blue was the most actionable color which people clicked on</li>
+                            
                         </ul>
                         <h4 className={styles.emphasize}>Fonts:</h4>
                         <ul>
@@ -85,19 +98,24 @@ function Fxtrade() {
                         </ul>
                         
                         <h4 className={styles.emphasize}>Hierachy: </h4>
-                        <p>When thinking about what information gets placed where, I really wanted to understand what goes on in a customer's mind when accessing our application. By talking to our customers, our trader team, and looking at quantitative metrics, it was determined that a user typically follows this flow when launching the app:</p>
-                        <ul>
-                            <li>1. Seeing how my portfolio was doing</li>
-                            <li>2. Seeing how the rates I care about are doing</li>
-                            <li>3. Doing analysis</li>
-                            <li>4. Executing trades</li>
-                        </ul>
-                        <ul>
-                            <li>• This determined that first and foremost at the top, we wanted to display their portfolio amount. If they wanted to see more, they can expand for further details without leaving the homescreen.</li>
-                            <li>• Just below that are their saved rates with each rate allowing a user to go into chart mode for technical analaysis.</li>
-                            <li>• Tab bar with New Trade button always accessible to allow for trading.</li>
-                        </ul>
                         
+                        
+                        <section className={styles.portfolioRow}>
+                            <img src={fxtradesketches} alt="Thought Chart" class={styles.fxTradeSecond}/>
+                            <div>
+                                <p>When thinking about what information gets placed where, I really wanted to understand what goes on in a customer's mind when accessing our application. By talking to our customers, our trader team, and looking at quantitative metrics, it was determined that a user typically follows this flow when launching the app:</p>
+                                <ul>
+                                    <li>1. Seeing how my portfolio was doing</li>
+                                    <li>2. Seeing how the rates I care about are doing</li>
+                                    <li>3. Doing analysis</li>
+                                    <li>4. Executing trades</li>
+                                </ul>
+                                <p>This determined that first and foremost at the top, we wanted to display their portfolio amount. If they wanted to see more, they can expand for further details without leaving the homescreen. Just below that are their saved rates with each rate allowing a user to go into chart mode for technical analaysis. Tab bar with New Trade button always accessible to allow for trading.
+                                </p>
+                            </div>
+                            
+                        </section>
+
                         <h3>4. User Feedback</h3>
                         <p>At OANDA, I found various avenues that allowed me to gather user feedback.</p>
                         <ul>
@@ -115,11 +133,14 @@ function Fxtrade() {
                         <p>I like to be very involved in the development of any product myself or my team has designed. It's always something I encouraged my team to do because I find it helps build a better relationship between design and development, and a better understanding of how things work. The team provides everything to development for every detail including padding, sizes, colors, user flow charts, etc.</p>
                         <p>As a design team, we built strong relationships with developers by: </p>
                         <ul>
-                            <li>• Involving them in the ideation sketching process</li>
-                            <li>• Sharing our design ideas</li>
+                            <li>• Involving them in each step of the design process</li>
                             <li>• Completing sprints and reaching goals together</li>
+                            <li>• Pair design / developer programming</li>
                             <li>• Running 1 week fast design sprints with developers</li>
                         </ul>
+                        <p>It's a continuous cycle with a back and forth collaboration between design and development. </p>
+
+                        <img src={designprocess} className={styles.uxDesignProcess} alt="Design Process" />
                         <h3>6. Release</h3>
                     </div>
                 </div>

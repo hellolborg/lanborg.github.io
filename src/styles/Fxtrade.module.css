@@ -75,7 +75,16 @@
 }
 
 .uxThought {
-    width: 90%;
+    width: 80%;
+}
+
+.uxDesign {
+    width: 500px;
+    margin: 20px 0;
+}
+
+.uxDesignProcess {
+    width: 60%;
 }
 
 .uxResearch {
@@ -90,11 +99,21 @@
     margin-bottom: 20px;
 }
 
-
 .portfolioGallery {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+}
+
+.storyGallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fxTradeStory {
+    height: 250px;
+    object-fit: contain;
 }
 
 .fxTradePhone {
@@ -140,6 +159,12 @@
 
 .designProcess .emphasize {
     font-weight: 700;
+}
+
+.designProcess .statement {
+    font-weight: 700;
+    padding: 20px;
+    border: 1px solid #BBB;
 }
 
 @media (max-width: 1250px) {
@@ -214,7 +239,28 @@
         align-items: center;
     }
 
+    .storyGallery {
+        flex-direction: column;
+    }
+
+    .fxTradeStory {
+        margin: 10px 0;
+    }
+
     .fxTradePhone {
         width: 250px;
+    }
+
+    .uxThought {
+        width: 100%;
+    }
+
+    .uxDesign {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .uxDesignProcess {
+        width: 100%;
     }
 }

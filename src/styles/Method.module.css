@@ -41,7 +41,28 @@
 
 @media (max-width: 520px) { 
 
+    .method {
+        width: 100vw;
+        margin: 0px;
+    }
+
+    .method h1 {
+        padding: 0px 20px;
+    }
+
+    .method h2 {
+        padding: 0px 20px;
+    }
+
+    .method ul li {
+        padding: 0px 20px;
+    }
+
+    .method p {
+        padding: 0px 20px;
+    }
+
     .methodImg {
-        width: 280px;
+        width: 100%;
     }
 }
