@@ -16,8 +16,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
-    {/* <BrowserRouter basename="/lanborg.github.io" > */}
+    // <BrowserRouter>
+    <BrowserRouter basename="/lanborg.github.io" >
       <div className="App">
         <Header />
         <main>
