@@ -9,11 +9,11 @@
 }
 
 .fxtrade h3 {
-    padding: 40px 0 20px 0;
+    padding: 10px 0 20px 0;
 }
 
 .fxtrade h4 {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .fxtrade ul {
@@ -83,6 +83,7 @@
 .uxResearch img {
     width: 350px;
     padding-right: 20px;
+    margin-bottom: 20px;
 }
 
 .portfolioGallery {
@@ -112,6 +113,28 @@
     max-width: 900px;
     object-fit: contain;
     object-position: center;
+}
+
+.designProcess h4 {
+    margin-left: 20px;
+}
+
+.designProcess p {
+    margin-left: 20px;
+}
+
+.designProcess h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.designProcess ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.designProcess .emphasize {
+    font-weight: 700;
 }
 
 @media (max-width: 1250px) {
@@ -145,6 +168,7 @@
     .uxResearch {
         flex-direction: column;
         align-items: center;
+        margin-left: 20px
     }
 
     .uxResearch img {

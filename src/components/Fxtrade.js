@@ -50,14 +50,75 @@ function Fxtrade() {
             <section className={styles.portfolioColumn}>
                 <div>
                     <h2>Leading in the Field</h2>
-                    <p>Trading on mobile, tablet and web was relatively new at the time of design and development. Speaking to customers, and working closely with the engineering, trading and product teams, we were able to design a world class, fast and easy to use trading application on all platforms.</p>
+                    <p>Trading on mobile, tablet and web was relatively new at the time of design and development. When I was brought on at OANDA, it was my task to completely redesign the fxTrade mobile and tablet applications. Speaking to customers, and working closely with the engineering, trading and product teams, we were able to design a world class, fast and easy to use trading application on all platforms.</p>
                 </div>
-                <div className={styles.uxResearch}>
-                    <img src={uxfxtradecolortest} alt="" />
-                    <img src={uxfxtradeproducttest} alt="" />
+                <div>
+                    <h2>Design Process</h2>
+                    <div className={styles.designProcess}>
+
+                        <h3>1. Understanding the Problem</h3>
+                        <p>My first step in any new project or feature is to first understand the problem. There were a lot of areas that we redesigned and considered in the fxTrade app, such as drawing on charts, scrolling calendars, executing trades fast, etc, and for each problem I start with building an understanding. For the design process example, I'll focus on how myself and the team came to the solution for our visual design.</p>
+                        <p className={styles.emphasize}>The problem: Traders need to access and scan all their important information quickly but there's a lot of cognitive overload due to the contrast, colours, and order of information displayed on the application.</p>
+
+                        <h3>2. Brainstorm & Ideation</h3>
+                        <p>Before writing/drawing anything, I start off with research and learn about the customers, competitors, and also exploring other apps outside the finance field. From the research I gathered, our traders are mostly men, and they are typically more tech savy then the average mobile user. They are more willing to adopt new technology and they like simplicity and speed. The top customers have elaborate desktop setups with many nice monitors and prefer dark themes when customizing their platforms.</p>
+                        <p>Using all this knowledge, I like to start off with a thought chart. I write down the problem statement on top, with the user and task in the middle, and from there I just branch out and write down as many ideas possible. For this particular project, it was done independantly but there's many times it's done as a group or while mentoring.</p>
+
+                        <h3>3. Design & Prototype</h3>
+                        <p>From there, I pull out my sketch book or white board and start sketching. I start off sketching the obvious ideas to just get it out there, but eventually it involves into ideas that I haven't thought of. I like to have the problem statement and research visible, to ensure everyone keeps that in mind when sketching.</p>
+                        <p>For fxTrade, or any app I design, I have a purpose behind the visual choices I made:</p>
+                        <h4 className={styles.emphasize}>Colors: </h4>
+                        <ul>
+                            <li>• Most of our users have set up a dark theme for their applications</li>
+                            <li>• The reason for this is because it allows focus to be directed to the numbers and charts which is key for trading. One second missed in trading could mean a lot of money gained or loss.</li>
+                            <li>• Blue was chosen as the primary action color because most of our users are men and men have a higher chance of being color blind</li>
+                            <li>• The previous action color of green, distracted took too much attention from the green being used to convey a price going up in value</li>
+                            <li>• Based on ui research, blue was the most actionable color which people clicked on</li>
+                        </ul>
+                        <h4 className={styles.emphasize}>Fonts:</h4>
+                        <ul>
+                            <li>• It has been shown in studies that san serif is easier to scan and read on web and mobile so it was an obvious choice when having so much information to display, that we wanted to use a san serif font.</li>
+                        </ul>
+                        
+                        <h4 className={styles.emphasize}>Hierachy: </h4>
+                        <p>When thinking about what information gets placed where, I really wanted to understand what goes on in a customer's mind when accessing our application. By talking to our customers, our trader team, and looking at quantitative metrics, it was determined that a user typically follows this flow when launching the app:</p>
+                        <ul>
+                            <li>1. Seeing how my portfolio was doing</li>
+                            <li>2. Seeing how the rates I care about are doing</li>
+                            <li>3. Doing analysis</li>
+                            <li>4. Executing trades</li>
+                        </ul>
+                        <ul>
+                            <li>• This determined that first and foremost at the top, we wanted to display their portfolio amount. If they wanted to see more, they can expand for further details without leaving the homescreen.</li>
+                            <li>• Just below that are their saved rates with each rate allowing a user to go into chart mode for technical analaysis.</li>
+                            <li>• Tab bar with New Trade button always accessible to allow for trading.</li>
+                        </ul>
+                        
+                        <h3>4. User Feedback</h3>
+                        <p>At OANDA, I found various avenues that allowed me to gather user feedback.</p>
+                        <ul>
+                            <li>• The first group was the traders we had on staff who were very interested and invested in the product.</li>
+                            <li>• The second approach was working with the product team to find a group of 100 customers who they felt would be want to be involved and would provide great feedback. </li>
+                            <li>• The last was including a button directly in the app to allow users to sign up to beta testing.</li>
+                        </ul>
+                        <p>Using the group of customers willing to test, I was able to gather feedback to see if we were heading in the right direction and where we needed to improve.</p>
+                        <div className={styles.uxResearch}>
+                            <img src={uxfxtradecolortest} alt="" />
+                            <img src={uxfxtradeproducttest} alt="" />
+                        </div>
+
+                        <h3>5. Development</h3>
+                        <p>I like to be very involved in the development of any product myself or my team has designed. It's always something I encouraged my team to do because I find it helps build a better relationship between design and development, and a better understanding of how things work. The team provides everything to development for every detail including padding, sizes, colors, user flow charts, etc.</p>
+                        <p>As a design team, we built strong relationships with developers by: </p>
+                        <ul>
+                            <li>• Involving them in the ideation sketching process</li>
+                            <li>• Running design ideas</li>
+                            <li>• Completing sprints and reaching goals together</li>
+                            <li>• Running 1 week fast design sprints with developers</li>
+                        </ul>
+                        <h3>6. Release</h3>
+                    </div>
                 </div>
-            </section>
-            <section className={styles.portfolioColumn}>
                 <h3>OANDA FxTrade Mobile Application</h3>
                 <div className={styles.portfolioGallery}>
                     <img src={fxtradechart2} className={styles.fxTradePhone} alt="fxTrade Charts" />

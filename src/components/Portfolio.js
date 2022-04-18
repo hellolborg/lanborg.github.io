@@ -16,7 +16,7 @@ function Portfolio() {
                         <img src={portfolio1} alt="fxTrade" class={styles.portfolioGallery} />
                     </a>
                     <div className={styles.portfolioName}>
-                        <h4>fxTrade</h4>
+                        <h4>fxTrade Mobile & Web App</h4>
                     </div>
                 </li>
                 <li className={styles.portfolioImg}>
@@ -24,7 +24,7 @@ function Portfolio() {
                         <img src={portfolio2} alt="OANDA Live" class={styles.portfolioGallery} />
                     </a>
                     <div className={styles.portfolioName}>
-                        <h4>OANDA Live</h4>
+                        <h4>OANDA Live Research</h4>
                     </div>
                 </li>
                 <li className={styles.portfolioImg}>
@@ -32,7 +32,7 @@ function Portfolio() {
                         <img src={portfolio3} alt="Autodesk Alias" class={styles.portfolioGallery} />
                     </a>
                     <div className={styles.portfolioName}>
-                        <h4>Autodesk Alias</h4>
+                        <h4>Autodesk Alias Modernization</h4>
                     </div>
                 </li>
                 <li className={styles.portfolioImg}>
@@ -56,7 +56,7 @@ function Portfolio() {
                         <img src={portfolio6} alt="Pantry Yum Yums" class={styles.portfolioGallery} />
                     </a>
                     <div className={styles.portfolioName}>
-                        <h4>Pantry Yum Yums</h4>
+                        <h4>Pantry Yum Yums React Project</h4>
                     </div>
                 </li>
             </ul>

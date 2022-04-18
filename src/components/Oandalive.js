@@ -1,5 +1,5 @@
 import styles from "../styles/Oandalive.module.css";
-import mixpanelExample from "../assets/mixpanelexample.png";
+import mixpanel2 from "../assets/mixpanel2.png";
 import oandametricsgif from "../assets/oanda_metrics.gif";
 import oandametrics1 from "../assets/oanda_metrics1.png";
 import oandametrics2 from "../assets/oanda_metrics2.png";
@@ -26,7 +26,7 @@ function Oandalive() {
                             <li>• Data always changes and unless you're monitoring it, your team may also be out of sync with the latest usage patterns</li>
                         </ul>
                     </div>
-                    <img src={mixpanelExample} className={styles.mixpanelExample} alt="OANDA metrics" />
+                    <img src={mixpanel2} className={styles.mixpanel2} alt="OANDA metrics" />
                     </div>
                 <p>
                 This is a frequent problem I see a lot in the industry and one solution I had to solve it was to create a program that will help us make sense of the data. We created scripts to parse the data to show us the key information we wanted to learn. We then had that data feed into graphs that updated every 5-10 mins with the latest user information and patterms. We took it a step further and had that information broadcast on TV screens throughout the office. The great thing about OANDA was that people cared about the product and wanted to understand how our customers used the product, so having that information updated live and available for people was great and helped us all make a better product.</p>
