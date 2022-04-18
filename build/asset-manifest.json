@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lanborg.github.io/static/css/main.5a04a672.css",
-    "main.js": "/lanborg.github.io/static/js/main.b26b18ea.js",
+    "main.css": "/lanborg.github.io/static/css/main.2e6d0a66.css",
+    "main.js": "/lanborg.github.io/static/js/main.ef1b6109.js",
     "static/js/787.52358b75.chunk.js": "/lanborg.github.io/static/js/787.52358b75.chunk.js",
     "static/media/sytycd.gif": "/lanborg.github.io/static/media/sytycd.f4f87a2a96c83d1ae326.gif",
     "static/media/cbc.gif": "/lanborg.github.io/static/media/cbc.eabec16ab02d7453970b.gif",
@@ -14,6 +14,7 @@
     "static/media/fxtrade_chart.gif": "/lanborg.github.io/static/media/fxtrade_chart.310b213a2c0163dbdb2a.gif",
     "static/media/fxtrade_chart2.gif": "/lanborg.github.io/static/media/fxtrade_chart2.b017e2c0dd2fab229245.gif",
     "static/media/fxtrade_main.gif": "/lanborg.github.io/static/media/fxtrade_main.b4ea968f507e340e513e.gif",
+    "static/media/mixpanel2.png": "/lanborg.github.io/static/media/mixpanel2.fb1be1d03a21aa2f1e44.png",
     "static/media/fxtrade_addremove.gif": "/lanborg.github.io/static/media/fxtrade_addremove.21e219b218145d47aac3.gif",
     "static/media/sytycdpromos.png": "/lanborg.github.io/static/media/sytycdpromos.50d535fce49d70c9e530.png",
     "static/media/uxfxtradeproducttest.png": "/lanborg.github.io/static/media/uxfxtradeproducttest.0411ae51e8b9364af2ba.png",
@@ -22,7 +23,6 @@
     "static/media/communication.png": "/lanborg.github.io/static/media/communication.a5ced613da4063e7d559.png",
     "static/media/portfolio1.png": "/lanborg.github.io/static/media/portfolio1.f2b948fa1f3eeb7e1edf.png",
     "static/media/portfolio6.png": "/lanborg.github.io/static/media/portfolio6.4a58930c30ee366fd348.png",
-    "static/media/mixpanelexample.png": "/lanborg.github.io/static/media/mixpanelexample.21defac14314d97aa5e0.png",
     "static/media/portfolio5.png": "/lanborg.github.io/static/media/portfolio5.024776d9878a858132a8.png",
     "static/media/chart.png": "/lanborg.github.io/static/media/chart.24206f4bd59d7f3d5463.png",
     "static/media/portfolio4.png": "/lanborg.github.io/static/media/portfolio4.bfca746c19777c1bf7ae.png",
@@ -46,12 +46,12 @@
     "static/media/emailIcon.svg": "/lanborg.github.io/static/media/emailIcon.21d9f8dad01e1b7c5554b33c73e49766.svg",
     "index.html": "/lanborg.github.io/index.html",
     "static/media/wave.svg": "/lanborg.github.io/static/media/wave.7d9dec2f6fcbc99c905f4225125850ca.svg",
-    "main.5a04a672.css.map": "/lanborg.github.io/static/css/main.5a04a672.css.map",
-    "main.b26b18ea.js.map": "/lanborg.github.io/static/js/main.b26b18ea.js.map",
+    "main.2e6d0a66.css.map": "/lanborg.github.io/static/css/main.2e6d0a66.css.map",
+    "main.ef1b6109.js.map": "/lanborg.github.io/static/js/main.ef1b6109.js.map",
     "787.52358b75.chunk.js.map": "/lanborg.github.io/static/js/787.52358b75.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a04a672.css",
-    "static/js/main.b26b18ea.js"
+    "static/css/main.2e6d0a66.css",
+    "static/js/main.ef1b6109.js"
   ]
 }
