@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lanborg.github.io/static/css/main.b353ee15.css",
-    "main.js": "/lanborg.github.io/static/js/main.969461fb.js",
+    "main.css": "/lanborg.github.io/static/css/main.26b615cc.css",
+    "main.js": "/lanborg.github.io/static/js/main.d6e02f6e.js",
     "static/js/787.52358b75.chunk.js": "/lanborg.github.io/static/js/787.52358b75.chunk.js",
     "static/media/sytycd.gif": "/lanborg.github.io/static/media/sytycd.f4f87a2a96c83d1ae326.gif",
     "static/media/cbc.gif": "/lanborg.github.io/static/media/cbc.eabec16ab02d7453970b.gif",
@@ -17,10 +17,12 @@
     "static/media/mixpanel2.png": "/lanborg.github.io/static/media/mixpanel2.fb1be1d03a21aa2f1e44.png",
     "static/media/fxtrade_addremove.gif": "/lanborg.github.io/static/media/fxtrade_addremove.21e219b218145d47aac3.gif",
     "static/media/sytycdpromos.png": "/lanborg.github.io/static/media/sytycdpromos.50d535fce49d70c9e530.png",
+    "static/media/fxtrade_storyboard3.jpg": "/lanborg.github.io/static/media/fxtrade_storyboard3.fd82b3502945edb37014.jpg",
     "static/media/uxfxtradeproducttest.png": "/lanborg.github.io/static/media/uxfxtradeproducttest.0411ae51e8b9364af2ba.png",
     "static/media/uxfxtradewires.png": "/lanborg.github.io/static/media/uxfxtradewires.b1b85e8ec6dfb771f08c.png",
     "static/media/thought_chart.png": "/lanborg.github.io/static/media/thought_chart.252c450519d9b42c3784.png",
     "static/media/LAN-resume.pdf": "/lanborg.github.io/static/media/LAN-resume.e2c487ba92d0d2b9bb2b.pdf",
+    "static/media/fxtrade_storyboard2.jpg": "/lanborg.github.io/static/media/fxtrade_storyboard2.d5110d0eb06983151cd7.jpg",
     "static/media/communication.png": "/lanborg.github.io/static/media/communication.a5ced613da4063e7d559.png",
     "static/media/portfolio1.png": "/lanborg.github.io/static/media/portfolio1.f2b948fa1f3eeb7e1edf.png",
     "static/media/portfolio6.png": "/lanborg.github.io/static/media/portfolio6.4a58930c30ee366fd348.png",
@@ -31,9 +33,11 @@
     "static/media/portfolio3.png": "/lanborg.github.io/static/media/portfolio3.d023f9786705d051a75c.png",
     "static/media/portfolio3_comingsoon.png": "/lanborg.github.io/static/media/portfolio3_comingsoon.b93e091226f2ec06b1d3.png",
     "static/media/uxfxtradecolortest.png": "/lanborg.github.io/static/media/uxfxtradecolortest.86ea5c299c81f0b04f12.png",
+    "static/media/fxtrade_sketches2.png": "/lanborg.github.io/static/media/fxtrade_sketches2.7a7242602be1eba64900.png",
     "static/media/lan.png": "/lanborg.github.io/static/media/lan.6a8f55ae09946772f341.png",
     "static/media/cbcplayerguide.jpg": "/lanborg.github.io/static/media/cbcplayerguide.ec596dbb2748625f7ad1.jpg",
     "static/media/oanda_metrics1.png": "/lanborg.github.io/static/media/oanda_metrics1.d3b054b73d5220a2f86e.png",
+    "static/media/fxtrade_storyboard1.jpg": "/lanborg.github.io/static/media/fxtrade_storyboard1.e779c256dc1e11f339bd.jpg",
     "static/media/oanda_metrics2.png": "/lanborg.github.io/static/media/oanda_metrics2.b108738c1f003050a93f.png",
     "static/media/tree2x.png": "/lanborg.github.io/static/media/tree2x.5e64a45cec4c079009c3.png",
     "static/media/portfolio2.png": "/lanborg.github.io/static/media/portfolio2.109002d21a1d7a7b7a5d.png",
@@ -47,12 +51,12 @@
     "static/media/emailIcon.svg": "/lanborg.github.io/static/media/emailIcon.21d9f8dad01e1b7c5554b33c73e49766.svg",
     "index.html": "/lanborg.github.io/index.html",
     "static/media/wave.svg": "/lanborg.github.io/static/media/wave.7d9dec2f6fcbc99c905f4225125850ca.svg",
-    "main.b353ee15.css.map": "/lanborg.github.io/static/css/main.b353ee15.css.map",
-    "main.969461fb.js.map": "/lanborg.github.io/static/js/main.969461fb.js.map",
+    "main.26b615cc.css.map": "/lanborg.github.io/static/css/main.26b615cc.css.map",
+    "main.d6e02f6e.js.map": "/lanborg.github.io/static/js/main.d6e02f6e.js.map",
     "787.52358b75.chunk.js.map": "/lanborg.github.io/static/js/787.52358b75.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b353ee15.css",
-    "static/js/main.969461fb.js"
+    "static/css/main.26b615cc.css",
+    "static/js/main.d6e02f6e.js"
   ]
 }

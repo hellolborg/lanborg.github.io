@@ -35,6 +35,15 @@
     margin: 0 30px;
 }
 
+.oandabrainstorm {
+    display: flex;
+    flex-direction: row;
+}
+
+.oandabrainstormImg {
+    width: 40%;
+}
+
 .oandametricsgif {
     width: 100%;
 }
@@ -93,6 +102,14 @@
     .mixpanelExample {
         width: 90%;
         margin: 20px 0;
+    }
+
+    .oandabrainstorm {
+        flex-direction: column;
+    }
+
+    .oandabrainstormImg {
+        width: 90%;
     }
 
     .oandametricsImg {

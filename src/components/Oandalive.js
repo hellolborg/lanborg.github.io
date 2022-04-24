@@ -1,5 +1,7 @@
 import styles from "../styles/Oandalive.module.css";
 import mixpanel2 from "../assets/mixpanel2.png";
+import oandathought from "../assets/oandalive-thoughtchart.png";
+import oandasketches from "../assets/oandalive-sketches.png";
 import oandametricsgif from "../assets/oanda_metrics.gif";
 import oandametrics1 from "../assets/oanda_metrics1.png";
 import oandametrics2 from "../assets/oanda_metrics2.png";
@@ -28,6 +30,19 @@ function Oandalive() {
                 </div>
                 <img src={mixpanel2} className={styles.mixpanel2} alt="OANDA metrics" />
             </div>
+            <h3>Brainstorm, Ideation and Research</h3>
+            <p>Since this was an internal project, our target were our colleagues. Talking to product, engineer, customer experience, trading, and VPs, we asked them what was important to them:</p>
+            <ul>
+                <li>What information did they want to know and learn about our customers?</li>
+                <li>Why it was important to know this information?</li>
+                <li>How they wanted to view the information?</li>
+            </ul>
+            <p>From there we constructed a thought charts and started sketching.</p>
+            <div className={styles.oandabrainstorm}>
+                <img src={oandathought} className={styles.oandabrainstormImg} alt="OANDA Brainstorm" />
+                <img src={oandasketches} className={styles.oandabrainstormImg} alt="OANDA Brainstorm" />
+            </div>
+
             <h3>The Solution</h3>
             <p>The solution I had to solve it was to create a custom program that will help us make sense of the data. Working with the engineering team, we created scripts to parse the data to show us the key information we wanted to learn.</p>
             <p>Instead of focusing on the 10,000+ users we had. We focused on the top 100 users that drove more then 80% of our revenue. We wanted to learn:</p>
